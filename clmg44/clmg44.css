@@ -1,0 +1,9 @@
+#back{
+    float:left;
+}
+.vid{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100px;
+}
