@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Windo width 500 height 300-->
+<!--3 buttons to swap between videos -->
+<!-- Three buttons to change the size-->
+<!--One button to pause and play video-->
+<!--A buffer bar-->
+<!---->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="clmg44.css">
+    </head>
+    <body>
+        <a href="menu.html">Back</a>
+        <video width="500" height="300" id="playn" controls>
+            <source src="" type="video/mp4" id="sources">
+        </video>
+        <div>
+            <div class="vid">
+                <button id="video1" onclick="switchv1()" >Video 1</button>
+                <button id="size2" onclick="size1()" >Small</button>
+                
+                
+            </div>
+            <div class="vid">
+                <button id="video2" onclick="switchv2()" >Video 2</button>
+                <button id="size1" onclick="size2()" >Normal</button>
+               
+                
+            </div>
+            <div class="vid">
+                <button id="video3" onclick="switchv3()" >Video 3</button>
+                <button id="size3" onclick="size3()" >Big</button>
+            </div>
+            <div class="vid">
+                <button id="control" onclick="controls()">Play</button>
+                <p id="state"></p>
+            </div>
+            
+
+        </div>
+       
+        
+
+        <script src="clmg44.js"></script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-#back{
+.back{
     float:left;
 }
 .vid{
@@ -6,4 +6,8 @@
     margin-left: 30px;
     margin-right: 30px;
     width: 100px;
+}
+
+.surrounds{
+    float: left;
 }
