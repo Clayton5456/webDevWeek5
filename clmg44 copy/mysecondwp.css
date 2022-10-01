@@ -1,0 +1,46 @@
+.list{
+    
+    padding: 10px;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+.column{
+    column-count: 2;
+    border: solid 1px
+}
+
+
+#title{
+    text-align: center;
+}
+
+#second, #third{
+    background-color: aquamarine;
+}
+
+#enter:hover{
+    width: 50px;
+    height: 25px;
+}
+
+#enter:active{
+    box-shadow: 1px -1px;
+    transform: translateY(2px);
+}
+
+#animate{
+    background-color: gray;
+    animation-name: animate;
+    animation-duration: 4s;
+}
+
+
+
+@keyframes animate {
+    from{ background-color: gray;}
+    to{ background-color: aquamarine;}
+}
